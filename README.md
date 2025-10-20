@@ -1,4 +1,4 @@
-# Hi, welcome to the brdrQ-Documentation page
+# Hello, welcome to the brdrQ-Documentation page
 
 This plugin provides tools to align polygons to reference polygons.
 
