@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>testproject</title>
+<title>brdrQ – testproject</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -96,11 +96,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <span class="nav-link">
-<span class="menu-text">about.qmd</span>
-    </span>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -116,12 +111,44 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+# Hello, welcome to the brdrQ-Documentation page
+
+This plugin provides tools to align polygons to reference polygons.
+
+here you can find links to the different tools that are currently provided:
+
+* [Autocorrectborders](autocorrectborders.md) - Bulk alignment to reference layer
+* [Feature aligner](featurealigner.md) - Feature-by-feature alignment with predictions
+* [Autoupdateborders](autoupdateborders.md) - Bulk alignment to latest GRB (Flanders - Belgium) based on predictions and provenance
+
+## Workflow
+1. Use [Autocorrectborders](autocorrectborders.md) to align your thematic data to a reference layer. 
+2. Output (CORRECTION layer) will be generated and a 'brdrq_state' is added.
+3. Use [Feature aligner](featurealigner.md) to review and update the features that are not automatically updated according the 'brdrq_state'.
 
 
 
 
-<p>test_html</p>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">brdrQ</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
 
 
 
